@@ -1,0 +1,52 @@
+.month {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.arrowButton {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 5px;
+}
+
+.arrowButton:hover {
+  background-color: #8d99ae;
+}
+
+.dateBox {
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dateBox:hover {
+  background-color: #bbd0ff;
+}
+
+.today {
+  background-color: #ffabae !important;
+}
+
+.selectedDay {
+  background-color: #5976f9 !important;
+}
